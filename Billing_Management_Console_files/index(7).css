@@ -1,0 +1,589 @@
+
+.aws-billing-console-tax-root .tax-info-alert {
+  color: rgb(210,80,80);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.aws-billing-console-tax-root .tax-info-invalid-characters {
+  color: rgb(210,80,80);
+  float:left;
+  margin:5px;
+  margin-left:214px;
+}
+
+.aws-billing-console-tax-root .tax-table-body .tax-table-heritage-row {
+  background-color: #F5F5F5;
+}
+
+.aws-billing-console-tax-root .tax-settings .ng-invalid:focus {
+  color:#b94a48;
+  border-color:#e9322d;
+  -webkit-box-shadow:0 0 6px #f8b9b7;
+  -moz-box-shadow:0 0 6px #f8b9b7;
+  box-shadow:0 0 6px #f8b9b7;
+}
+
+.aws-billing-console-tax-root .tax-settings input[type="text"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  height: 21px;
+}
+
+.aws-billing-console-tax-root .tax-settings textarea[type="text"]{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+.aws-billing-console-tax-root .tax-info-label {
+  width: 200px;
+}
+
+.aws-billing-console-tax-root .tax-info-select {
+   margin: 5px 0 5px 10px;
+}
+
+.aws-billing-console-tax-root .tax-info-static, .aws-billing-console-tax-root .tax-settings-address {
+  display: block;
+  margin-left: 214px;
+}
+
+.aws-billing-console-tax-root .tax-info-header {
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.aws-billing-console-tax-root .tax-info-header .popover {
+  font-size: 14px;
+}
+
+.aws-billing-console-tax-root .tax-info-label {
+  width: 150px;
+  text-align: right;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0;
+  cursor: default;
+}
+
+.aws-billing-console-tax-root .tax-vat-info-label {
+  width: 200px;
+  text-align: right;
+  display: inline-block;
+  font-weight: bold;
+  margin:0;
+  cursor: default;
+}
+
+.aws-billing-console-tax-root .tax-account-information-container {
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.aws-billing-console-tax-root .tax-account-fapiao-information-container{
+  overflow: visible;
+  margin-top: 3px;
+}
+.aws-billing-console-tax-root .tax-vat-information-detail {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.aws-billing-console-tax-root .tax-column-left-header {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.aws-billing-console-tax-root .delete-taxinfo-modal .modal-body {
+  padding: 25px;
+}
+
+.aws-billing-console-tax-root .delete-taxinfo-modal .modal-body .content{
+  margin-bottom: 18px;
+}
+
+.aws-billing-console-tax-root .tax-info-delete-overlay {
+  z-index: 1049;
+}
+
+.aws-billing-console-tax-root .tax-info-delete-popup {
+  z-index: 1050;
+}
+
+.aws-billing-console-tax-root .tax-info-text {
+  margin-left: 15px;
+}
+
+.aws-billing-console-tax-root .tax-address-selector {
+  margin: 15px 50px 15px 200px;
+}
+
+.aws-billing-console-tax-root .tax-address-selector label {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.aws-billing-console-tax-root .tax-address-selector input[type="radio"] {
+  vertical-align: baseline;
+}
+
+.aws-billing-console-tax-root .tax-spinner {
+  background-image: url(data:image/gif;base64,R0lGODlhEAAQAPQAAP///wAAAPj4+Dg4OISEhAYGBiYmJtbW1qioqBYWFnZ2dmZmZuTk5JiYmMbGxkhISFZWVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAAFUCAgjmRpnqUwFGwhKoRgqq2YFMaRGjWA8AbZiIBbjQQ8AmmFUJEQhQGJhaKOrCksgEla+KIkYvC6SJKQOISoNSYdeIk1ayA8ExTyeR3F749CACH5BAkKAAAALAAAAAAQABAAAAVoICCKR9KMaCoaxeCoqEAkRX3AwMHWxQIIjJSAZWgUEgzBwCBAEQpMwIDwY1FHgwJCtOW2UDWYIDyqNVVkUbYr6CK+o2eUMKgWrqKhj0FrEM8jQQALPFA3MAc8CQSAMA5ZBjgqDQmHIyEAIfkECQoAAAAsAAAAABAAEAAABWAgII4j85Ao2hRIKgrEUBQJLaSHMe8zgQo6Q8sxS7RIhILhBkgumCTZsXkACBC+0cwF2GoLLoFXREDcDlkAojBICRaFLDCOQtQKjmsQSubtDFU/NXcDBHwkaw1cKQ8MiyEAIfkECQoAAAAsAAAAABAAEAAABVIgII5kaZ6AIJQCMRTFQKiDQx4GrBfGa4uCnAEhQuRgPwCBtwK+kCNFgjh6QlFYgGO7baJ2CxIioSDpwqNggWCGDVVGphly3BkOpXDrKfNm/4AhACH5BAkKAAAALAAAAAAQABAAAAVgICCOZGmeqEAMRTEQwskYbV0Yx7kYSIzQhtgoBxCKBDQCIOcoLBimRiFhSABYU5gIgW01pLUBYkRItAYAqrlhYiwKjiWAcDMWY8QjsCf4DewiBzQ2N1AmKlgvgCiMjSQhACH5BAkKAAAALAAAAAAQABAAAAVfICCOZGmeqEgUxUAIpkA0AMKyxkEiSZEIsJqhYAg+boUFSTAkiBiNHks3sg1ILAfBiS10gyqCg0UaFBCkwy3RYKiIYMAC+RAxiQgYsJdAjw5DN2gILzEEZgVcKYuMJiEAOwAAAAAAAAAAAA==);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.aws-billing-console-tax-root .tax-table {
+  display: table;
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
+  table-layout: fixed;
+}
+
+.aws-billing-console-tax-root .tax-table-body {
+  display: table-row-group;
+}
+
+.aws-billing-console-tax-root .tax-table-header-group {
+  display: table-header-group;
+  border-left: 1px solid #cccccc;
+  background-image: linear-gradient(#eeeeee, #e0e0e0);
+}
+
+.aws-billing-console-tax-root .tax-table-header, .aws-billing-console-tax-root .tax-table-cell {
+  padding-left: 15px;
+  vertical-align: middle;
+  font-size: 14px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.aws-billing-console-tax-root .tax-table-row:last-child .tax-table-cell {
+  border-bottom: none;
+}
+
+.aws-billing-console-tax-root .tax-table-header {
+  display: table-cell;
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #ffffff;
+  height: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #444444;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+}
+
+.aws-billing-console-tax-root .tax-table-row {
+  display: table-row;
+}
+
+.aws-billing-console-tax-root .tax-table-cell {
+  display: table-cell;
+  height: 48px;
+}
+
+.aws-billing-console-tax-root tax-settings-table-filter {
+  display: table-caption;
+  height: 40px;
+  background-image: linear-gradient(#eeeeee, #e0e0e0);
+  padding: 0px 10px;
+  position: relative;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-input {
+  display: none;
+  border-collapse: collapse;
+  white-space:nowrap;
+  text-align:left;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-wrapper {
+  position: relative;
+  line-height: 1.4;
+  height: 40px;
+  font-size: 13px;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-text-box {
+  overflow: hidden;
+  text-align: left;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: 29px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  margin: 5px 0;
+  vertical-align: bottom;
+  display: flex;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-text-box-focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  outline: 0 none;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-search-icon {
+  position: absolute;
+  left: 5px;
+  top: 13px;
+  margin-top: -9px;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-input-wrapper {
+  margin-left: 28px;
+  position: relative;
+  padding-top:6px;
+  padding-bottom: 6px;
+  line-height: 1;
+  font-size: 13px;
+  flex: 1 1;
+  display: flex;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-input-outer {
+  cursor: text;
+  line-height: 1;
+  position: relative;
+  flex: 1 1;
+  padding-left: 5px;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-input {
+  padding: 0px !important;
+  width: 100%;
+  border:0 none !important;
+  outline: 0 none !important;
+  height: 16px !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-tag {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #d2d2d2;
+  padding: 4px 5px;
+  margin-right: 1px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(top, #FDFDFD, #E3E3E3);
+  background: -moz-linear-gradient(top, #FDFDFD, #E3E3E3);
+  background: -o-linear-gradient(top, #FDFDFD, #E3E3E3);
+  background: -ms-linear-gradient(top, #FDFDFD, #E3E3E3);
+  background: linear-gradient(top, #FDFDFD, #E3E3E3);
+  height: 12.5px;
+  text-align: left;
+  position: relative;
+  bottom: 6px;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-tag:hover {
+  border-color: #2099cc;
+}
+
+.aws-billing-console-tax-root .tax-table-filter-spinner {
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.aws-billing-console-tax-root .tax-table-body {
+  display: table-row-group;
+}
+
+.aws-billing-console-tax-root .tax-table-footer {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.aws-billing-console-tax-root .awsui-v1 .awsui-modal-body .awsui-control-group-inside {
+  padding: 0px;
+}
+
+.aws-billing-console-tax-root .tax-modal-address-label {
+  width: 33%;
+  display: block;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.aws-billing-console-tax-root .tax-table-header:first-child {
+  border-left: none;
+}
+
+.aws-billing-console-tax-root .tax-table-header:last-child {
+  border-right: none;
+}
+
+.aws-billing-console-tax-root .tax-table-body .tax-table-row:not(.tax-table-selected-row):not(.tax-table-heritage-row):hover {
+  background-color: #F0F9FF;
+}
+
+.aws-billing-console-tax-root .tax-table-body .tax-table-selected-row {
+  background-color: #E6F3FF;
+}
+
+.aws-billing-console-tax-root .tax-table-page-controller {
+  display: inline-block;
+  text-align: center;
+}
+
+.aws-billing-console-tax-root .tax-table-wrapper {
+  min-height: 128px;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+
+.aws-billing-console-tax-root .tax-table-spinner {
+  position: absolute;
+  z-index: 100000;
+  left: calc(50% - 21px);
+  top: 80px;
+  width: 64px;
+  height: 64px;
+}
+.aws-billing-console-tax-root .tax-table-spinner .awsui-spinner::before {
+  width: 42px;
+  height: 42px;
+}
+
+.aws-billing-console-tax-root .awsui-v1 .tax-table-footer .awsui-button.awsui-button-variant-standalone-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.aws-billing-console-tax-root .awsui-v1 .tax-table-footer .awsui-icon::before {
+  width: 22px;
+  height: 22px;
+}
+
+.aws-billing-console-tax-root .tax-widget {
+  overflow: visible;
+}
+
+.aws-billing-console-tax-root tax-settings-filter-dropdown {
+  max-height: 193px;
+  overflow: visible;
+  z-index : 2000;
+  opacity: 1;
+  position: absolute;
+  margin: 2px 0 0;
+  padding: 5px 0;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px rgba(128, 128, 128, 0.7);
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #444;
+}
+
+.aws-billing-console-tax-root .tax-filter-dropdown-panel-content {
+  color: #fff;
+  overflow-wrap: break-word;
+}
+
+.aws-billing-console-tax-root .tax-filter-dropdown-panel-item {
+  color: #fff;
+  cursor: pointer;
+  padding: 2px 20px;
+  line-height: 1.5em;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.aws-billing-console-tax-root .tax-filter-dropdown-panel-item.focus {
+  color: #ffa500;
+  background-color: #373737;
+}
+
+.aws-billing-console-tax-root .tax-phone-sample{
+     margin-left: 165px;
+     font-size:11px;
+     color:(211,211,211);
+ }
+
+ .aws-billing-console-tax-root .tax-file-size-warning{
+     margin-left:50px;
+     font-style: italic;
+ }
+
+ .aws-billing-console-tax-root .tax-supporting-doc-text{
+     overflow: auto;
+     margin-left: 10px;
+ }
+
+ .aws-billing-console-tax-root .tax-settings-status-bar{
+     overflow:auto;
+     margin-top:30px;
+     display:flex;
+     flex-wrap:wrap;
+ }
+
+ .aws-billing-console-tax-root .tax-settings-status{
+     font-size:14px;
+     line-height:24px;
+     font-weight:400;
+     flex-grow:1;
+     text-align:center;
+     width:calc(100% / 7);
+ }
+
+ .aws-billing-console-tax-root .tax-settings-status-progress{
+     margin-top:20px;
+     width:calc(100%/7);
+ }
+
+ .aws-billing-console-tax-root .tax-settings-number-circle{
+     border-radius:50%;
+     background: #fff;
+     border: 4px solid #666;
+     color: #000;
+     text-align:center;
+     width: 16px;
+     height: 16px;
+     padding: 4px;
+     line-height: 100%;
+     margin-left:auto;
+     margin-right:auto;
+     position: relative;
+     z-index: 2;
+ }
+ .aws-billing-console-tax-root .tax-settings-number-circle-blue{
+     color:blue;
+     border-color:blue;
+ }
+ .aws-billing-console-tax-root .tax-settings-progress-line{
+     position: relative;
+     top: -16px;
+     z-index:1;
+     width:100%;
+ }
+
+ .aws-billing-console-tax-root .tax-settings-status-hint{
+     position:relative;
+     top:-15px;
+     z-index:2;
+     width:10px;
+ }
+
+/* This will force the browser to show scroll bar for mac users with a touchpad. */
+.aws-billing-console-tax-root .tax-modal .awsui-modal-body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.aws-billing-console-tax-root .tax-modal .awsui-modal-body::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+.aws-billing-console-tax-root .tax-modal .awsui-modal-body::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+.aws-billing-console-tax-root .tax-modal .awsui-modal-body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.aws-billing-console-tax-root .tax-modal .awsui-modal-body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.aws-billing-console-tax-root .tax-progress-bar-outter {
+  border: solid 1px #CCC;
+  height: 20px;
+  background: #EEE;
+  margin-bottom: 10px;
+}
+
+.aws-billing-console-tax-root .tax-progress-bar-inner {
+  height: 100%;
+  border: solid 1px #16b;
+  background: #38d;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.aws-billing-console-tax-root .tax-progress-bar-text {
+  text-align: right;
+}
+
+.aws-billing-console-tax-root #VatRegNumberLabel {
+  font-size: 13px;
+}
+
+.aws-billing-console-tax-root .label-text {
+  font-size: 16px;
+}
+
+/* This input is hidden because we style with a custom button. The button is clicked programatically to upload a file. */
+.aws-billing-console-root .awsui-modal-content input[type="file"].document-upload-input {
+  display: none;
+}
+
+.aws-billing-console-root .awsui-modal-content div.existing-document-container {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150%;
+}
+
+.aws-billing-console-root .awsui-modal-content div.existing-document-container a {
+  vertical-align: -1px;
+}
+
+.aws-billing-console-root .awsui-modal-content div.document-upload-entry {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150%;
+}
+
+.aws-billing-console-root .awsui-modal-content div.document-upload-entry span.entry-filename {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.aws-billing-console-root .awsui-modal-content span.delete-document-action {
+  cursor: pointer;
+}
+
+.aws-billing-console-root .awsui-modal-content span.document-validation-error {
+  font-size: 12px;
+  color: #d25050;
+  display: none;
+}
+
+.aws-billing-console-tax-root .tax-button-table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.aws-billing-console-tax-root .tax-button-table-cell .tax-heritage-checkbox {
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
